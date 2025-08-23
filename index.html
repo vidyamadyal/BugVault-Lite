@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BugVault Lite</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🐞 BugVault Lite</h1>
+
+    <form id="bugForm">
+      <label for="title">Bug Title</label>
+      <input type="text" id="title" required />
+
+      <label for="description">Description</label>
+      <textarea id="description" required></textarea>
+
+      <label for="severity">Severity</label>
+      <select id="severity">
+        <option value="Low">Low</option>
+        <option value="Medium">Medium</option>
+        <option value="High">High</option>
+      </select>
+
+      <button type="submit">Submit Bug</button>
+    </form>
+
+    <p id="successMessage" style="display: none; color: green; font-weight: bold; margin-top: 1rem;">
+      ✅ Bug submitted successfully!
+    </p>
+
+    <h2>Submitted Bugs</h2>
+    <ul id="bugList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
