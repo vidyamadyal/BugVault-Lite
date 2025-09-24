@@ -1,5 +1,4 @@
 
-## 📄 README.md
 
 ```markdown
 # 🐞 BugVault Lite
@@ -121,9 +120,5 @@ This project is open-source and free to use under the MIT License.
 
 ---
 
-## Working Video Link
 
-https://drive.google.com/file/d/1xP_W0nuENP2fOowQtkTsRvAFk1chDJHV/view?usp=drive_link
-
----
 
